@@ -6,7 +6,9 @@ namespace Operators
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var a = 10;
+            var b = 3;
+            Console.WriteLine((float)a / (float)b);
         }
     }
 }
